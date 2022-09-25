@@ -1,0 +1,38 @@
+var array = [1,2,3,4,5]
+var starray = ["veer","priya","hitesh","swayam","mehul"]
+console.log(array.length)
+console.log(starray.length)
+const array3 = [2,4,5,6,7,8]
+console.log(array3.length)
+
+console.log(array.reverse())
+
+function sorting(a,b){
+    return b-a;
+}
+console.log(array.sort(sorting)) // Sorting
+
+let ar1 = [1,3,5,7,9]
+let ar2 = [2,4,6,8,0]
+
+console.log(ar1.join("-")); 
+
+console.log(ar1.concat(ar2))  //Contactinating 2 integer arrays
+
+let starr2 = ["Sushmitha","Abhishek","Amol"]
+
+console.log(starray.concat(starr2)) //Concating 2 strings arrays
+
+console.log(ar1.concat(starr2))  //Concating int with string arrays
+
+let res1 = starray.concat(starr2);
+let res2 = (ar1.concat(ar2));
+console.log(typeof(res1))
+console.log(typeof(res2))
+let rse3 = ar1.join("-")
+console.log(typeof(rse3))
+
+let arrn1 = [11,12,13,14,15,16,17,18,19,20]
+//arr.splice(start, deleteCount, item1, ..., itemN)
+console.log(arrn1.slice(5,9));
+console.log(arrn1.splice(5,10))
